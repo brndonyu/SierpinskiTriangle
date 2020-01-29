@@ -10,11 +10,11 @@ public void mouseDragged()//optional
 {
 
 }
-public void sierpinski(int x, int y, int len) 
+public void sierpinski(float x, float y, float len) 
 {
 	if(len <= 20)
 	{
-		triangle((float)x, (float)y, (float)(x+(len/2)), (float)(y), (float)(x+len/4), (float)(y-len/2));
+		triangle(x, y, x+(len/2), y-len, x+len, y);
 	}
 	else
 	{
