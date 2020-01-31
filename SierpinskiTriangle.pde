@@ -14,7 +14,7 @@ public void draw()
 	fill(0);
 	stroke(a,b,c);
 	rgb();
-	sierpinski(200,800,500);
+	sierpinski(250,700,500);
 }
 public void mouseDragged()//optional
 {
